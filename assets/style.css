@@ -109,6 +109,44 @@ a {
   font-size: 30px;
   font-weight: bold;
 }
+.home__slider__slide__content .arrows__left {
+  color: white;
+  border: 0;
+  float: left;
+  font-size: 28px;
+  width: 70px;
+  height: 70px;
+  background: transparent;
+}
+.home__slider__slide__content .arrows__left:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+.home__slider__slide__content .arrows__left:active {
+  outline: none;
+}
+.home__slider__slide__content .arrows__left:focus {
+  outline: none;
+}
+.home__slider__slide__content .arrows__right {
+  color: white;
+  border: 0;
+  float: right;
+  font-size: 28px;
+  width: 70px;
+  height: 70px;
+  background: transparent;
+}
+.home__slider__slide__content .arrows__right:hover {
+  background-color: rgba(28, 208, 173, 0.5);
+  cursor: pointer;
+}
+.home__slider__slide__content .arrows__right:active {
+  outline: none;
+}
+.home__slider__slide__content .arrows__right:focus {
+  outline: none;
+}
 .home__slider__slide__content .actions__primary {
   background-color: #1CD0AD;
   color: #fff;

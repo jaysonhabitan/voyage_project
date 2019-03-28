@@ -132,6 +132,55 @@ a {
                 .subtitle {
 
                 }
+
+                .arrows {
+
+                    &__left {
+                        color: white;
+                        border: 0;
+                        float: left;
+                        font-size: 28px;
+                        width: 70px;
+                        height: 70px;
+                        background: transparent;
+
+                        &:hover {
+                            background-color: rgba(255,255,255, 0.3);
+                            cursor: pointer;
+                        }
+
+                        &:active {
+                            outline: none;
+                        }
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    &__right {
+                        color: white;
+                        border: 0;
+                        float: right;
+                        font-size: 28px;
+                        width: 70px;
+                        height: 70px;
+                        background: transparent;
+
+                        &:hover {
+                            background-color: rgba(28, 208, 173, 0.5);
+                            cursor: pointer;
+                        }
+
+                        &:active {
+                            outline: none;
+                        }
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
                 .actions {
                     &__primary {
                         background-color: $secondary_color;
