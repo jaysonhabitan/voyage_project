@@ -299,5 +299,306 @@ a {
   font-size: 32px;
   float: right;
 }
+.home__holiday {
+  background-color: #2D3E50;
+  height: 400px;
+  position: relative;
+}
+.home__holiday__slide {
+  color: white;
+}
+.home__holiday__slide__content {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding-top: 40px;
+  line-height: 200%;
+}
+.home__holiday__slide__content .title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.home__holiday__slide__content .subtitle {
+  font-size: 15px;
+}
+.home__holiday__slide__content .icons {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+.home__holiday__slide__content .icons__secondary {
+  background-color: transparent;
+  color: #fff;
+  border: 3px solid #fff;
+  padding: 30px 30px;
+  border-radius: 500px;
+  margin: 0 5px;
+}
+.home__holiday__slide__content .icons__secondary:hover {
+  border-color: #1CD0AD;
+  color: #1CD0AD;
+}
+.home__holiday__slide__content .icons__secondary i {
+  font-size: 50px;
+}
+.home__holiday__slide__background {
+  background-image: url("imgs/1.jpg");
+  opacity: 0.3;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.home__client {
+  background-color: white;
+  height: 400px;
+  position: relative;
+}
+.home__client__content {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding-top: 40px;
+  line-height: 200%;
+}
+.home__client__content .title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.home__client__content .subtitle {
+  font-size: 15px;
+  color: black;
+}
+.home__client__content .card {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  max-width: 2000px;
+  margin: auto;
+}
+.home__client__content .card__sm-card {
+  opacity: 0.3;
+  transition: 0.3s;
+  width: 350px;
+  height: 100px;
+}
+.home__client__content .card__sm-card:hover {
+  transition: 0.5s;
+  width: 400px;
+  height: 150px;
+  box-shadow: 0 -5px 0 0 #1cd0ad;
+  opacity: 1;
+}
+.home__client__content .card__sm-card .container {
+  padding: 0px 16px;
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: left;
+}
+.home__client__content .card__sm-card--active {
+  width: 400px;
+  height: 150px;
+  box-shadow: 0 -5px 0 0 #1cd0ad;
+  opacity: 1;
+}
+.home__client__content .card__sm-card .name {
+  padding: 0px 16px;
+  color: #1CD0AD;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+}
+.home__client__content .card__sm-card .country {
+  opacity: 0.3;
+  padding: 0px 16px;
+  color: grey;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+.home__emot {
+  background-color: #2D3E50;
+  color: #fff;
+  font-size: 12px;
+  height: auto;
+}
+.home__emot__slags {
+  margin: auto;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  width: auto;
+  margin: 0px 350px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  padding: 10px 15px;
+}
+.home__emot__slags .stik {
+  padding: 0px 10px;
+  border-right: 1px dashed white;
+  align-items: center;
+  margin: 0px 0px 0px 2px;
+}
+.home__emot__slags .tik {
+  padding: 0px 10px;
+  border-right: 1px dashed white;
+  border-left: 1px dashed white;
+  align-items: center;
+  margin: 0px 0px 0px 2px;
+}
+.home__emot__slags .tiks {
+  padding: 0px 10px;
+  border-left: 1px dashed white;
+  align-items: center;
+  margin: 0px 0px 0px 2px;
+}
+.home__footer {
+  background-color: #2D3E50;
+  color: #fff;
+  font-size: 12px;
+  height: auto;
+  align-items: center;
+  border-bottom: 2px solid #324355;
+}
+.home__footer__tutuk {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto;
+  margin: 0px 50%;
+}
+.home__footer__tutuk__arrow-up {
+  width: 0px;
+  height: 0px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #1CD0AD;
+}
+.home__footer__stagers {
+  margin: auto;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 0px 0px 10px 0px;
+}
+.home__footer__wrappers {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 0px 100px;
+}
+.home__footer__wrappers__inner {
+  padding-bottom: 10px;
+  color: #1CD0AD;
+  background-color: #2D3E50;
+  text-align: left;
+  width: 200px;
+}
+.home__footer__wrappers__inner__sirch {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+.home__footer__wrappers__inner__sirch .input {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 3px;
+  width: 100px;
+  border: 2px solid white;
+}
+.home__footer__wrappers__inner__sirch .buttones {
+  background-color: #1CD0AD;
+  color: #fff;
+  border: 2px solid #1CD0AD;
+  padding: 10px 15px;
+  border-radius: 3px;
+  margin-right: 0px;
+}
+.home__footer__wrappers__inner__jokes {
+  padding: 10px 15px;
+  border-radius: 3px;
+  width: 20px;
+  text-align: center;
+}
+.home__footer__wrappers__inner .wordings {
+  color: white;
+  text-align: left;
+  margin: 0;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+.home__footer__wrappers__inner__embark {
+  color: white;
+  text-align: left;
+  padding-left: 5px;
+}
+.home__footer__wrappers__inner__into {
+  grid-template-columns: auto auto;
+  display: grid;
+  width: 200px;
+}
+.home__footer__wrappers__inner__into__joke {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 3px;
+  width: 20px;
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+}
+.home__footer__wrappers__inner__into__post_wordings {
+  color: #1CD0AD;
+  text-align: left;
+  padding-left: 5px;
+}
+.home__footer__wrappers__inner__tags {
+  color: white;
+  display: grid;
+  width: fit-content;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+}
+.home__footer__wrappers__inner__tags .lags {
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin: 2px;
+  text-align: center;
+}
+.home__footer__wrappers__inner__blah {
+  color: white;
+}
+.home__footer__wrappers__inner__blah span {
+  color: #1CD0AD;
+}
+.home__footer__wrappers__inner__iconis {
+  display: grid;
+  text-align: center;
+  grid-template-columns: auto auto auto auto;
+  color: white;
+  width: fit-content;
+}
+.home__footer__wrappers__inner__iconis .mini {
+  padding: 10px;
+  width: 20px;
+}
+.home__footer__wrappers__inner__iconis .mini:hover {
+  padding: 10px;
+  width: 20px;
+  transition: 0.8s;
+  transform: rotate(360deg);
+}
 
 /*# sourceMappingURL=style.css.map */
