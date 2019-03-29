@@ -1,5 +1,6 @@
 $primary_color: #2D3E50;
 $secondary_color: #1CD0AD;
+$padding: 10px 15px;
 
 body {
     margin: 0;
@@ -8,7 +9,7 @@ body {
 }
 
 .primary-color {
-    color: $primary_color
+    color: $primary_color;
 }
 
 .secondary-color {
@@ -19,8 +20,210 @@ a {
     color: $secondary_color;
     text-decoration: none;
 }
-
 .home {
+    &__emot {
+        background-color: $primary_color;
+        color: #fff;
+        font-size: 12px;
+        height: auto;
+        
+        &__slags {
+            margin: auto;
+            color: white;
+            font-size: 10px;
+            text-align: center;
+            width: auto;
+            margin: 0px 350px;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto;
+            padding: $padding;
+
+            .stik {
+                padding: 0px 10px;
+                border-right: 1px dashed white;
+                align-items: center;
+                margin: 0px 0px 0px 2px;
+            }
+
+            .tik {
+                padding: 0px 10px;
+                border-right: 1px dashed white;
+                border-left: 1px dashed white;
+                align-items: center;
+                margin: 0px 0px 0px 2px;
+            }
+
+            .tiks {
+                padding: 0px 10px;
+                border-left: 1px dashed white;
+                align-items: center;
+                margin: 0px 0px 0px 2px;
+            }
+        }
+    }
+
+    &__footer {
+        background-color: $primary_color;
+        color: #fff;
+        font-size: 12px;
+        height: auto;
+        align-items: center;
+        border-bottom: 2px solid #324355;
+        
+        &__tutuk {
+            align-items: center;
+            display: grid;
+            grid-template-columns: auto;
+            margin: 0px 50%;
+
+            &__arrow-up {
+                width: 0px; 
+                height: 0px; 
+                border-left: 20px solid transparent;
+                border-right: 20px solid transparent;
+                border-bottom: 20px solid $secondary_color;
+
+                // .arrowing {
+                //     display: grid;
+                //     font-size: xx-small;
+                //     color: white;
+                // }
+            }
+        }
+
+
+        &__stagers {
+            margin: auto;
+            color: white;
+            font-size: 10px;
+            text-align: center;
+            display: grid;
+            grid-template-columns: auto;
+            padding: 0px 0px 10px 0px;
+        }
+        
+        &__wrappers {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin: 0px 100px;
+
+            &__inner {
+                padding-bottom: 10px;
+                color: $secondary_color;
+                background-color: $primary_color;
+                text-align: left;
+                width: 200px;
+
+                &__sirch {
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    align-items: center;
+
+                    .input {
+                        background-color: white;
+                        padding: $padding;
+                        border-radius: 3px;
+                        width: 100px;
+                        border: 2px solid white;
+                    }
+
+                    .buttones {
+                        background-color: $secondary_color;
+                        color: #fff;
+                        border: 2px solid $secondary_color;
+                        padding: $padding;
+                        border-radius: 3px;
+                        margin-right: 0px;
+                    }
+                }
+
+                &__jokes {
+                    padding: $padding;
+                    border-radius: 3px;
+                    width: 20px;
+                    text-align: center;
+                }
+
+                .wordings {
+                    color: white;
+                    text-align: left;
+                    margin: 0;
+                    padding-left: 5px;
+                    padding-bottom: 5px;
+                }
+
+                &__embark {
+                    color: white;
+                    text-align: left;
+                    padding-left: 5px;
+                }
+
+                &__into {
+                    grid-template-columns: auto auto;
+                    display: grid;
+                    width: 200px;
+
+                    &__joke {
+                        border: 1px solid white;
+                        padding: 5px;
+                        border-radius: 3px;
+                        width: 20px;
+                        text-align: center;
+                        margin: 0px 0px 10px 0px;
+                    }
+
+                    &__post_wordings {
+                        color: $secondary_color;
+                        text-align: left;
+                        padding-left: 5px;
+                    }
+                }
+
+                &__tags {
+                    color: white;
+                    display: grid;
+                    width: fit-content;
+                    align-items: center;
+                    grid-template-columns: auto auto auto;
+
+                    .lags {
+                        padding: 5px;
+                        border: 1px solid white;
+                        border-radius: 3px;
+                        margin: 2px;
+                        text-align: center;
+                    }
+                }
+                &__blah {
+                    color: white;
+                    span {
+                        color: $secondary_color;
+                    }
+                }
+
+                &__iconis {
+                    display: grid;
+                    text-align: center;
+                    grid-template-columns: auto auto auto auto;
+                    color: white;
+                    width: fit-content;
+
+                    .mini {
+                        padding: 10px;
+                        width: 20px;
+                    }
+
+                    .mini:hover {
+                        padding: 10px;
+                        width: 20px;
+                        transition: 0.8s;
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+        }
+    }
+
     &__header {
         background-color: $primary_color;
         color: #fff;  
@@ -92,7 +295,6 @@ a {
                     margin-right: 20px;
                     color: $primary_color;
 
-
                     &--active, &:hover {
                         color: $secondary_color;
                     }
@@ -111,6 +313,7 @@ a {
             }
         }
     }
+
     &__slider {
         background-color: $primary_color;
         height: 600px;
@@ -129,6 +332,7 @@ a {
                     font-size: 30px;
                     font-weight: bold;
                 }
+
                 .subtitle {
 
                 }
