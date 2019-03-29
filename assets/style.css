@@ -175,16 +175,17 @@ a {
 .home__holiday__slide__content .icons__secondary {
   background-color: transparent;
   color: #fff;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   padding: 30px 30px;
   border-radius: 500px;
   margin: 0 5px;
 }
+.home__holiday__slide__content .icons__secondary:hover {
+  border-color: #1CD0AD;
+  color: #1CD0AD;
+}
 .home__holiday__slide__content .icons__secondary i {
   font-size: 50px;
-}
-.home__holiday__slide__content .icons__secondary:hover {
-  background-color: #1CD0AD;
 }
 .home__holiday__slide__background {
   background-image: url("imgs/1.jpg");
@@ -197,6 +198,73 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
+}
+.home__client {
+  background-color: white;
+  height: 400px;
+  position: relative;
+}
+.home__client__content {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding-top: 40px;
+  line-height: 200%;
+}
+.home__client__content .title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.home__client__content .subtitle {
+  font-size: 15px;
+  color: black;
+}
+.home__client__content .card {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  max-width: 2000px;
+  margin: auto;
+}
+.home__client__content .card__sm-card {
+  opacity: 0.3;
+  transition: 0.3s;
+  width: 400px;
+  height: 150px;
+}
+.home__client__content .card__sm-card:hover {
+  box-shadow: 0 -5px 0 0 #1cd0ad;
+  opacity: 1;
+}
+.home__client__content .card__sm-card .container {
+  padding: 0px 16px;
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: left;
+}
+.home__client__content .card__sm-card--active {
+  box-shadow: 0 -5px 0 0 #1cd0ad;
+  opacity: 1;
+}
+.home__client__content .card__sm-card .name {
+  padding: 0px 16px;
+  color: #1CD0AD;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+}
+.home__client__content .card__sm-card .country {
+  opacity: 0.3;
+  padding: 0px 16px;
+  color: grey;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
